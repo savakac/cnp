@@ -1,0 +1,373 @@
+/*Css main style*/
+/*Definovanie style pre prehliadac mensi ako 900px*/
+@media (max-width: 900px) {
+	/*This write style*/
+}
+
+/*Definovanie style pre zobrazenie vadsie ako 481px a mensie ako 1024px a orientacia na vysku*/
+@media (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+	/*This write style*/
+}
+
+/*Definovanie style pre zobrazenie vadsie ako 481px a mensie ako 1024px a orentacia na sirku*/
+@media (min-device-width: 481px) and (max-device-width: 1024) and (orientation:landscape) {
+	/*This write style*/
+}
+
+/*Top line row*/
+#header-container { padding-top: 20px; }
+
+/*Font*/
+@import url("../fonts/exo2_regular_slovak/stylesheet.css");
+@import url("../fonts/opensans_regular_slovak/stylesheet.css");
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "exo_2.0regular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body { font-family: "open_sansregular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/*Logo*/
+#logo { z-index: 2; }
+
+#logo img
+{
+	box-shadow: 0px 3px 0px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+	#search-form { display: block; }
+}
+
+@media (max-width: 767px) {
+	.xs-text-center { text-align: center; }
+}
+
+#xs-menu li
+{
+	background-color: #f0f0f0;
+	padding: 6px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+#xs-nav
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #63c6bf;
+}
+
+#xs-menu li:hover { background-color: #ffd380; }
+#xs-menu, #search-form { margin-top: 5px; }
+#social-networks { padding-top: 24px; }
+
+/*Slideshow*/
+#slideshow
+{
+	position: relative;
+	top: -20px;
+	border-bottom: 5px solid rgba(0,0,0,0.08);
+}
+
+.slideshow-shadow
+{
+	margin-left: -15px;
+	margin-right: -15px;
+	height: 3px;
+	position: relative;
+	top: -20px;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.carousel-indicators { bottom: 90px; }
+
+.carousel-caption
+{
+	top: 10%;
+	right: 10%;
+	left: 50%;
+	bottom: auto;
+	text-align: left;
+}
+
+@media (max-width: 969px) {
+	.carousel-caption {
+		top: -20px;
+		left: 36%;
+	}
+}
+
+/*Menu*/
+#menu
+{
+	height: 133px;
+	margin-top: -120px;
+	position: relative;
+	z-index: 10;
+}
+
+#menu ul li
+{
+	font-size: 13px;
+	font-style: italic;
+	background-color: #63c6bf;
+	border-bottom: 3px solid rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+}
+
+#menu ul li a
+{
+	height: 120px;
+	margin: 5px 0px;
+	padding-top: 80px;
+	color: #ffffff;
+	background-color: transparent;
+	border-right: 1px solid rgba(255,255,255,0.4);
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+/*Odstranenie borderu z lavej a pravej casti menu*/
+#menu ul li.left a { border-left: none; }
+#menu ul li.right a { border-right: none; }
+
+/*Nastavenie pozadia v menu*/
+#menu ul li.calendar { background-image: url(../images/menu_calendar.png); }
+#menu ul li.news { background-image: url(../images/menu_news.png); }
+#menu ul li.festival { background-image: url(../images/menu_festival.png); }
+#menu ul li.present { background-image: url(../images/menu_present.png); }
+#menu ul li.presenting { background-image: url(../images/menu_presenting.png); }
+
+#menu .col-md-2 { padding: 0px; }
+
+#menu ul li:hover,
+#menu ul li:focus,
+#menu ul li:active,
+#menu ul li.active { background-color: #ffd380; }
+
+#menu ul li:hover a,
+#menu ul li:focus a,
+#menu ul li:active a,
+#menu ul li.active a { color: #030303; }
+
+/*Content*/
+.content h1 { font-size: 24px; }
+
+.content
+{
+	background-image: url(../images/content-background.png), url(../images/content-background.png);
+	background-position: center top, center bottom;
+	background-repeat: repeat-x, repeat-x;
+}
+
+#akcie, #novinky
+{
+	min-height: 500px;
+}
+
+.akcia, .index-new
+{
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+
+.akcia img
+{
+	width: 120px;
+	height: 120px;
+	border: 2px solid #E1E1E1;
+	float: left;
+	margin-right: 15px;
+}
+
+.akcia h2
+{
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.akcia h3
+{
+	font-size: 16px;
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+
+.akcia p { padding-left: 135px; }
+
+.index-new .btn
+{
+	font-size: 24px;
+	font-style: italic;
+	padding: 0px;
+	width: 38px;
+	height: 38px;
+	color: #FFFFFF;
+	float: left;
+	margin-right: 15px;
+}
+
+.btn-primary
+{
+	background-color: #FFD380;
+	border-color: #FFD380;
+}
+
+.index-new h3
+{
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.index-new a:hover, .index-new a:focus, a:active
+{
+	text-decoration: none;
+	color: #63C6BF;
+}
+
+a:active, a:hover { outline: 0; }
+
+.index-new p { padding-left: 53px; }
+
+.green { color: #63C6BF; }
+.red { color: #FC7E85; }
+
+#banner
+{
+	height: 100px;
+	margin: 10px 0px 25px 0px;
+	background-color: #CCCCCC;
+}
+
+#galeria .center-image { float: left; }
+.bg-white { background-color: #FFFFFF; }
+
+#galeria a, #galeria a img, #galeria a .overlay
+{
+	width: 120px;
+	height: 120px;
+}
+
+#galeria a
+{
+	display: inline-block;
+	margin: 15px;
+	position: relative;
+}
+
+#galeria a .overlay
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(252, 126, 133, 0.8) url(../images/overlay.png) no-repeat center;
+	display: none;
+}
+
+#galeria a:hover .overlay, #galeria a:focus .overlay, #galeria a:active .overlay { display: block; }
+#galeria .galeria-viac { margin-top: 15px; }
+
+.btn
+{
+	border-radius: 0px;
+	padding: 6px 24px;
+	text-transform: uppercase;
+}
+
+/*Bud sucastou*/
+#bud-sucastou a
+{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	padding-top: 80px;
+	margin: 15px;
+	color: #303030;
+	font-style: italic;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+}
+
+#bud-sucastou .dobrovolnik { background: #FC7E85 url(../images/dobrovolnik-icon.png) no-repeat center 20px; }
+#bud-sucastou .ucastnik { background: #63C6BF url(../images/ucastnik-icon.png) no-repeat center 20px; }
+#bud-sucastou .partner { background: #FFD380 url(../images/partner-icon.png) no-repeat center 20px; }
+#bud-sucastou .prezentujuci { background: #FFD380 url(../images/prezentujuci-icon.png) no-repeat center 20px; }
+#bud-sucastou .mam-napad { background: #FC7E85 url(../images/mam-napad-icon.png) no-repeat center 20px; }
+#bud-sucastou .anketa { background: #63C6BF url(../images/anketa-icon.png) no-repeat center 20px; }
+
+.center-image { text-align: center; }
+
+@media (min-width: 1200px) {
+	#galeria a, #bud-sucastou a { float: left; }
+	#galeria .galeria-viac
+	{
+		text-align: right;
+		margin-right: 23px;
+	}
+}
+
+#partneri div
+{
+	background-color: #FFFFFF;
+	padding: 20px 0px;
+}
+
+@media (min-width: 768px) {
+	#bud-sucastou .collapse, #partneri .collapse { display: block; }
+}
+
+/*Footer*/
+footer .nav>li>a:hover, footer .nav>li>a:focus, footer .nav>li>a:active, footer a:hover, footer a:focus, footer a:active
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+footer
+{
+	background-color: #63c6bf;
+	border-top: 3px solid rgba(255,255,255,0.8);
+	padding-top: 15px;
+}
+
+footer .nav>li>a { padding: 0px; }
+
+.nav>li>a
+{
+	position: relative;
+	display: block;
+}
+
+.padding-top-15 { padding-top: 15px; }
+.padding-bottom-15 { padding-bottom: 15px; }
+
+footer p, footer a
+{
+	color: #FFFFFF;
+}
+
+footer hr
+{
+	border-top-color: rgba(0, 0, 0, 0.2);
+	margin-bottom: 5px;
+}
+
+footer .copyright
+{
+	color: #458D88;
+	margin-bottom: 10px;
+}
+
+#newsletter-input
+{
+	width: 217px;
+	background-color: #F4F4F4;
+	border: none;
+	border-radius: 0px;
+	box-shadow: inset 1px 2px 0px rgba(0, 0, 0, 0.08);
+	font-size: 13px;
+}
