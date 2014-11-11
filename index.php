@@ -304,22 +304,138 @@
         </div>
       </div>
     </div>
-    <!-- Partneri -->
-    <div class="row">
-      <div class="col-sm-12" id="partneri">
+
+    <div class="row hidden-xs">
+      <div class="col-sm-12">
         <h1 class="hidden-xs text-uppercase">Partneri</h1>
-        <button type="button" class="btn btn-lg btn-block visible-xs-block" data-toggle="collapse" data-target="#xs-partneri">Partneri
-          <span class="glyphicon glyphicon-chevron-down"></span>
-        </button>
-        <div class="collapse" id="xs-partneri">
-          <a href="#" title="Partneri"><img src="images/akcie.png" alt="partneri"></a>
-          <a href="#" title="Partneri"><img src="images/akcie.png" alt="partneri"></a>
-          <a href="#" title="Partneri"><img src="images/akcie.png" alt="partneri"></a>
-          <a href="#" title="Partneri"><img src="images/akcie.png" alt="partneri"></a>
-          <a href="#" title="Partneri"><img src="images/akcie.png" alt="partneri"></a>
-        </div>
       </div>
     </div>
+	</div>
+
+	<!-- Partneri -->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" id="partneri">
+				<button type="button" class="btn btn-lg btn-block visible-xs-block"  data-toggle="collapse" data-target="#xs-partneri">Partneri			
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</button>
+				<div class="collapse" id="xs-partneri">
+					<div id="carousel-partneri" class="carousel slide">
+						<!-- Carousel list -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/visegrad_fund_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/visegrad_fund_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/visegrad_fund_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/visegrad_fund_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/victory_travel_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+									<div class="col-sm-2 text-center">
+										<a href="#" title="Partneri" target="_blank">
+											<img src="images/letenky_sk_logo.jpg" alt="Akcie" class="img-responsive">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#carousel-partneri" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-partneri" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Footer -->

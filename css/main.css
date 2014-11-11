@@ -309,10 +309,45 @@ a:active, a:hover { outline: 0; }
 	}
 }
 
-#partneri div
+/*Partneri*/
+#partneri button
 {
-	background-color: #FFFFFF;
-	padding: 20px 0px;
+	background-color: #63C6Bf;
+	border-color: #63C6BF;
+	font-style: italic;
+	color: #303030;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
+}
+
+#carousel-partneri { margin: 20px 0; }
+#carousel-partneri .item a { display: inline-block; }
+
+#carousel-partneri .carousel-control
+{
+	width: 30px;
+	color: #63C6BF;
+	text-shadow: none;
+	opacity: 1;
+}
+
+#carousel-partneri .carousel-control:hover, #carousel-partneri .carousel-control:focus
+{
+	color: #FC7E85;
+	opacity: 1;
+}
+
+#carousel-partneri .carousel-control.left
+{
+	background-image: none;
+	left: -25px;
+}
+
+#carousel-partneri .carousel-control.right
+{
+	background-image: none;
+	right: -25px;
 }
 
 @media (min-width: 768px) {
